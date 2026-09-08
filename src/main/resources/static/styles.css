@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    color: black;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.destacado {
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+#contacto {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+    background-color: white;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
