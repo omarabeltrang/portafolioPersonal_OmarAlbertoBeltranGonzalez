@@ -2,53 +2,189 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+
     <title>Mis Hobbies - Omar Alberto Beltran Gonzalez</title>
+
 </head>
+
 
 <body>
 
 <header>
 
-    <h1>Mis Hobbies</h1>
+    <div class="encabezado">
+
+        <h1>Mis Hobbies</h1>
+
+        <p>
+            Actividades que disfruto realizar en mi tiempo libre.
+        </p>
+
+    </div>
+
 
     <nav>
+
         <a href="index.html">Inicio</a>
+
         <a href="hobbies.html">Hobbies</a>
+
     </nav>
 
 </header>
 
+
 <main>
 
-    <section>
+    <section class="seccion hobbies">
+
         <h2>Actividades que disfruto</h2>
 
-        <ul>
-            <li>Crear contenido</li>
-            <li>Trabajar en mi local</li>
-            <li>Usar Marketplace</li>
-            <li>Ver videos</li>
-        </ul>
+
+        <!-- GRID DE TARJETAS -->
+
+        <div class="grid-hobbies">
+
+
+            <!-- TARJETA 1 -->
+
+            <article class="tarjeta">
+
+                <!-- FLEXBOX -->
+
+                <div class="tarjeta-contenido">
+
+                    <span class="icono">🎥</span>
+
+                    <div>
+
+                        <h3>Crear contenido</h3>
+
+                        <p>
+                            Me gusta crear contenido y desarrollar ideas
+                            para compartirlas con otras personas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- TARJETA 2 -->
+
+            <article class="tarjeta">
+
+                <div class="tarjeta-contenido">
+
+                    <span class="icono">🏪</span>
+
+                    <div>
+
+                        <h3>Trabajar en mi local</h3>
+
+                        <p>
+                            Disfruto trabajar en mi local y aprender
+                            sobre ventas y atención al cliente.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- TARJETA 3 -->
+
+            <article class="tarjeta">
+
+                <div class="tarjeta-contenido">
+
+                    <span class="icono">🛒</span>
+
+                    <div>
+
+                        <h3>Usar Marketplace</h3>
+
+                        <p>
+                            Me interesa utilizar Marketplace para
+                            buscar productos y conocer nuevas opciones
+                            de compra y venta.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- TARJETA 4 -->
+
+            <article class="tarjeta">
+
+                <div class="tarjeta-contenido">
+
+                    <span class="icono">▶️</span>
+
+                    <div>
+
+                        <h3>Ver videos</h3>
+
+                        <p>
+                            En mi tiempo libre disfruto ver videos
+                            sobre diferentes temas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
     </section>
 
-    <section>
+
+    <section class="seccion">
+
         <h2>Mis hobbies en orden de preferencia</h2>
 
-        <ol>
+
+        <ol class="lista-orden">
+
             <li>Crear contenido</li>
+
             <li>Trabajar en mi local</li>
+
             <li>Usar Marketplace</li>
+
             <li>Ver videos</li>
+
         </ol>
+
     </section>
 
 </main>
 
+
 <footer>
 
-    <p>&copy; 2026 Omar Alberto Beltran Gonzalez</p>
+    <p>
+        &copy; 2026 Omar Alberto Beltran Gonzalez
+    </p>
 
 </footer>
 

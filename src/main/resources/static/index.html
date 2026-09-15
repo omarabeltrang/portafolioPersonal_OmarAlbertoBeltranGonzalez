@@ -4,96 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles.css">
+
     <title>Portafolio Personal - Omar Alberto Beltran Gonzalez</title>
 </head>
 
 <body>
 
 <header>
-    <h1>Portafolio Personal</h1>
 
-    <h2>Omar Alberto Beltran Gonzalez</h2>
+    <div class="encabezado">
+        <h1>Portafolio Personal</h1>
+        <h2>Omar Alberto Beltran Gonzalez</h2>
+    </div>
 
     <nav>
         <a href="index.html">Inicio</a>
         <a href="hobbies.html">Hobbies</a>
     </nav>
+
 </header>
+
 
 <main>
 
-    <section>
+    <section class="seccion">
         <h2>Sobre mí</h2>
 
-        <img src="img/WhatsApp Image 2026-08-15 at 1.35.55 AM.jpeg"
-             width="150"
-             alt="Fotografía de Omar Alberto Beltran Gonzalez">
+        <img
+                src="img/WhatsApp Image 2026-08-15 at 1.35.55 AM.jpeg"
+                width="150"
+                alt="Fotografía de Omar Alberto Beltran Gonzalez"
+                class="foto-perfil"
+        >
 
         <p class="destacado">
             Hola, mi nombre es Omar Alberto Beltran Gonzalez.
             Soy estudiante de Ingeniería en Software y estoy aprendiendo
             desarrollo web.
         </p>
+
+        <p>
+            Me interesa seguir aprendiendo sobre programación, desarrollo
+            web y creación de proyectos que me permitan mejorar mis
+            habilidades como futuro ingeniero de software.
+        </p>
+
     </section>
 
-    <section>
+
+    <section class="seccion">
+
         <h2>Datos personales</h2>
 
-        <ul>
+        <ul class="lista">
+
             <li>Edad: 21 años</li>
+
             <li>Ciudad: Obregón</li>
+
             <li>Carrera: Ingeniería en Software</li>
+
         </ul>
+
     </section>
 
-    <section>
+
+    <section class="seccion">
+
         <h2>Habilidades</h2>
 
         <h3>Habilidades técnicas</h3>
 
-        <ul>
+        <ul class="lista">
+
             <li>HTML</li>
             <li>Java</li>
             <li>Spring Boot</li>
             <li>Desarrollo web</li>
+
         </ul>
+
 
         <h3>Orden de aprendizaje</h3>
 
-        <ol>
+        <ol class="lista-orden">
+
             <li>Aprender HTML</li>
             <li>Aprender CSS</li>
             <li>Aprender JavaScript</li>
             <li>Desarrollar proyectos web</li>
+
         </ol>
+
     </section>
 
-    <section>
+
+    <section class="seccion">
+
         <h2>Historial académico</h2>
 
-        <table border="1">
+        <div class="tabla-contenedor">
 
-            <thead>
-            <tr>
-                <th>Periodo</th>
-                <th>Institución</th>
-                <th>Estudios</th>
-            </tr>
-            </thead>
+            <table>
 
-            <tbody>
-            <tr>
-                <td>Actualidad</td>
-                <td>Universidad</td>
-                <td>Ingeniería en Software</td>
-            </tr>
-            </tbody>
+                <thead>
 
-        </table>
+                <tr>
+                    <th>Periodo</th>
+                    <th>Institución</th>
+                    <th>Estudios</th>
+                </tr>
+
+                </thead>
+
+                <tbody>
+
+                <tr>
+                    <td>Actualidad</td>
+                    <td>Universidad</td>
+                    <td>Ingeniería en Software</td>
+                </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
     </section>
 
-    <section>
+
+    <section class="seccion">
+
         <h2>Objetivo</h2>
 
         <p>
@@ -101,34 +145,49 @@
             funciona Internet, además de mejorar mis conocimientos en
             desarrollo de software.
         </p>
+
     </section>
 
-    <section id="contacto">
+
+    <section id="contacto" class="seccion">
+
         <h2>Mis redes</h2>
 
-        <ul>
+        <ul class="redes">
+
             <li>
-                <a href="https://github.com/omarabeltrang"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                <a
+                        href="https://github.com/omarabeltrang"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                >
                     GitHub
                 </a>
             </li>
 
             <li>
-                <a href="https://www.instagram.com/omarbeltranmayoreo/"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                <a
+                        href="https://www.instagram.com/omarbeltranmayoreo/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                >
                     Instagram
                 </a>
             </li>
+
         </ul>
+
     </section>
 
 </main>
 
+
 <footer>
-    <p>&copy; 2026 Omar Alberto Beltran Gonzalez</p>
+
+    <p>
+        &copy; 2026 Omar Alberto Beltran Gonzalez
+    </p>
+
 </footer>
 
 </body>
